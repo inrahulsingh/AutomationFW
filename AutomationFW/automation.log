@@ -1,0 +1,25 @@
+02/17/2020 10:20:53 PM - SeleniumDriver - INFO: Identified element with locator type id with locator value username
+02/17/2020 10:20:53 PM - SeleniumDriver - INFO: Entered data on webelement with locatortype idlocator value username data = admin
+02/17/2020 10:20:53 PM - SeleniumDriver - INFO: Identified element with locator type name with locator value pwd
+02/17/2020 10:20:53 PM - SeleniumDriver - INFO: Entered data on webelement with locatortype namelocator value pwd data = manager
+02/17/2020 10:20:53 PM - SeleniumDriver - INFO: Identified element with locator type id with locator value keepLoggedInCheckBox
+02/17/2020 10:20:53 PM - SeleniumDriver - INFO: Click on webelement with locatortype idlocator value keepLoggedInCheckBox
+02/17/2020 10:20:54 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value //div[contains(text(),'Login')]
+02/17/2020 10:20:54 PM - SeleniumDriver - INFO: Click on webelement with locatortype xpathlocator value //div[contains(text(),'Login')]
+02/17/2020 10:20:58 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value //div[@id='container_users']
+02/17/2020 10:21:01 PM - SeleniumDriver - INFO: Click on webelement with locatortype xpathlocator value //div[@id='container_users']
+02/17/2020 10:21:01 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value //div[contains(text(),'New User')]
+02/17/2020 10:21:01 PM - SeleniumDriver - INFO: Click on webelement with locatortype xpathlocator value //div[contains(text(),'New User')]
+02/17/2020 10:21:11 PM - SeleniumDriver - INFO: Waited for element to be clicked
+02/17/2020 10:21:11 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value //input[@id='createUserPanel_firstNameField']
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Entered data on webelement with locatortype xpathlocator value //input[@id='createUserPanel_firstNameField'] data = SomeFirstName
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value //input[@id='createUserPanel_lastNameField']
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Entered data on webelement with locatortype xpathlocator value //input[@id='createUserPanel_lastNameField'] data = SomeLastName
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value //input[@id='createUserPanel_emailField']
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Entered data on webelement with locatortype xpathlocator value //input[@id='createUserPanel_emailField'] data = somelastname@gmail.com
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value //div[@class='components_button submitBtn']
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Click on webelement with locatortype xpathlocator value //div[@class='components_button submitBtn']
+02/17/2020 10:21:12 PM - SeleniumDriver - INFO: Identified element with locator type xpath with locator value (//span[text()='Close'])[1]
+02/17/2020 10:21:14 PM - SeleniumDriver - INFO: Click on webelement with locatortype xpathlocator value (//span[text()='Close'])[1]
+02/17/2020 10:21:14 PM - SeleniumDriver - INFO: Identified element with locator type id with locator value logoutLink
+02/17/2020 10:21:16 PM - SeleniumDriver - INFO: Click on webelement with locatortype idlocator value logoutLink
