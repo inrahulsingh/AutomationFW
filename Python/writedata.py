@@ -1,0 +1,5 @@
+write_data=open("C://Users/r8singh/wfile.txt",'w')
+write_data.write("Hello World")
+write_data.flush()
+print("Done")
+write_data.close()
