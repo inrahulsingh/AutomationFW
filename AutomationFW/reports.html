@@ -241,9 +241,33 @@ function filter_table(elem) {
 }
 </script>
     <h1>reports.html</h1>
-    <p>Report generated on 17-Feb-2020 at 22:21:16 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
+    <p>Report generated on 17-Feb-2020 at 23:05:15 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.1</p>
     <h2>Environment</h2>
     <table id="environment">
+      <tr>
+        <td>BUILD_ID</td>
+        <td>1</td></tr>
+      <tr>
+        <td>BUILD_NUMBER</td>
+        <td>1</td></tr>
+      <tr>
+        <td>BUILD_TAG</td>
+        <td>jenkins-AutomationTesting-1</td></tr>
+      <tr>
+        <td>BUILD_URL</td>
+        <td><a href="http://localhost:8080/job/AutomationTesting/1/" target="_blank">http://localhost:8080/job/AutomationTesting/1/</a></td></tr>
+      <tr>
+        <td>EXECUTOR_NUMBER</td>
+        <td>0</td></tr>
+      <tr>
+        <td>JENKINS_URL</td>
+        <td><a href="http://localhost:8080/" target="_blank">http://localhost:8080/</a></td></tr>
+      <tr>
+        <td>JOB_NAME</td>
+        <td>AutomationTesting</td></tr>
+      <tr>
+        <td>NODE_NAME</td>
+        <td>master</td></tr>
       <tr>
         <td>Packages</td>
         <td>{&apos;pytest&apos;: &apos;5.3.5&apos;, &apos;py&apos;: &apos;1.8.1&apos;, &apos;pluggy&apos;: &apos;0.13.1&apos;}</td></tr>
@@ -255,9 +279,12 @@ function filter_table(elem) {
         <td>{&apos;html&apos;: &apos;2.0.1&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;, &apos;ordering&apos;: &apos;0.6&apos;}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.8.0</td></tr></table>
+        <td>3.8.0</td></tr>
+      <tr>
+        <td>WORKSPACE</td>
+        <td>C:\Users\inrah\.jenkins\workspace\AutomationTesting</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 39.69 seconds. </p>
+    <p>1 tests ran in 36.08 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -273,32 +300,32 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_createuser.py::Test_CreateUser::test_createusersuccessfully</td>
-          <td class="col-duration">22.80</td>
+          <td class="col-duration">22.53</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type id with locator value username
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype idlocator value username data = admin
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type name with locator value pwd
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype namelocator value pwd data = manager
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type id with locator value keepLoggedInCheckBox
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype idlocator value keepLoggedInCheckBox
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[contains(text(),&#x27;Login&#x27;)]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[contains(text(),&#x27;Login&#x27;)]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[@id=&#x27;container_users&#x27;]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[@id=&#x27;container_users&#x27;]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[contains(text(),&#x27;New User&#x27;)]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[contains(text(),&#x27;New User&#x27;)]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:225 Waited for element to be clicked
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //input[@id=&#x27;createUserPanel_firstNameField&#x27;]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype xpathlocator value //input[@id=&#x27;createUserPanel_firstNameField&#x27;] data = SomeFirstName
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //input[@id=&#x27;createUserPanel_lastNameField&#x27;]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype xpathlocator value //input[@id=&#x27;createUserPanel_lastNameField&#x27;] data = SomeLastName
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //input[@id=&#x27;createUserPanel_emailField&#x27;]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype xpathlocator value //input[@id=&#x27;createUserPanel_emailField&#x27;] data = somelastname@gmail.com
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[@class=&#x27;components_button submitBtn&#x27;]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[@class=&#x27;components_button submitBtn&#x27;]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value (//span[text()=&#x27;Close&#x27;])[1]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value (//span[text()=&#x27;Close&#x27;])[1]
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:40 Identified element with locator type id with locator value logoutLink
-[32mINFO    [0m SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype idlocator value logoutLink<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type id with locator value username
+INFO     SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype idlocator value username data = admin
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type name with locator value pwd
+INFO     SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype namelocator value pwd data = manager
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type id with locator value keepLoggedInCheckBox
+INFO     SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype idlocator value keepLoggedInCheckBox
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[contains(text(),&#x27;Login&#x27;)]
+INFO     SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[contains(text(),&#x27;Login&#x27;)]
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[@id=&#x27;container_users&#x27;]
+INFO     SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[@id=&#x27;container_users&#x27;]
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[contains(text(),&#x27;New User&#x27;)]
+INFO     SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[contains(text(),&#x27;New User&#x27;)]
+INFO     SeleniumDriver:seleniumdriver.py:225 Waited for element to be clicked
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //input[@id=&#x27;createUserPanel_firstNameField&#x27;]
+INFO     SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype xpathlocator value //input[@id=&#x27;createUserPanel_firstNameField&#x27;] data = SomeFirstName
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //input[@id=&#x27;createUserPanel_lastNameField&#x27;]
+INFO     SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype xpathlocator value //input[@id=&#x27;createUserPanel_lastNameField&#x27;] data = SomeLastName
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //input[@id=&#x27;createUserPanel_emailField&#x27;]
+INFO     SeleniumDriver:seleniumdriver.py:127 Entered data on webelement with locatortype xpathlocator value //input[@id=&#x27;createUserPanel_emailField&#x27;] data = somelastname@gmail.com
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value //div[@class=&#x27;components_button submitBtn&#x27;]
+INFO     SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value //div[@class=&#x27;components_button submitBtn&#x27;]
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type xpath with locator value (//span[text()=&#x27;Close&#x27;])[1]
+INFO     SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype xpathlocator value (//span[text()=&#x27;Close&#x27;])[1]
+INFO     SeleniumDriver:seleniumdriver.py:40 Identified element with locator type id with locator value logoutLink
+INFO     SeleniumDriver:seleniumdriver.py:118 Click on webelement with locatortype idlocator value logoutLink<br/></div></td></tr></tbody></table></body></html>
